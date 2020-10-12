@@ -1,0 +1,67 @@
+Date 12-10-20; 0820
+
+* To work with tables using relationship model is necessary to follow some restrictions: 
+    - reference intregrad
+    - keys
+    - relationships intregrad.
+
+* Infontion Law:
+    Every information have datas reoresents like: anykind of atribute  relationships represents datas.
+
+    pt-br version.
+    
+    Porém, para trabalhar com essas tabelas, algumas restrições
+    precisaram ser impostas para evitar aspectos indesejáveis, como: Repetição de
+    informação, incapacidade de representar parte da informação e perda de
+    informação. Essas restrições são: integridade referencial, chaves e integridade de
+    junções de relações.
+
+* Em resumo e de acordo com a arquitetura ANSI / SPARC os Bancos de
+dados relacionais consistem de três componentes:
+
+    Uma coleção de estruturas de dados, formalmente chamadas de relações, ou
+    informalmente tabelas, compondo o nível conceitual;
+    2. Uma coleção dos operadores, a álgebra e o cálculo relacionais, que
+    constituem a base da linguagem SQL; e
+    3. Uma coleção de restrições da integridade, definindo o conjunto consistente
+    de estados de base de dados e de alterações de estados. 
+
+De acordo com o princípio da Informação: toda informação tem de ser representada como dados,
+qualquer tipo de atributo representa relações entre conjuntos de dados.
+
+O termo "Aplicativo de Banco de dados" usualmente se refere a
+softwares que oferecem uma interface para o banco de dados. O software que
+gerencia os dados é geralmente chamado de sistema gerenciador de banco de dados
+(SGBD) ou (se for embarcado) de "database engine".
+
+Os SGBD tem sete
+características operacionais elementares sempre observadas, que passaremos a
+listar:
+
+
+CARACTERÍSTICA 1: Controle de Redundâncias - A redundância consiste no armazenamento de uma
+mesma informação em locais diferentes, provocando insconsistências. Em um banco de dados as
+informações só se encontram armazenadas em um único local, não existindo duplicação descon-
+trolada dos dados.
+
+CARACTERÍSTICA 2: Compartilhamento de Dados - O SGDB deve incluir software de controle de 
+concconrrência ao acesso dos dados, garantindo em qualquer tipo de situação a escrita/leitura
+dados sem erros.
+
+CARACTERÍSTICA 3: Controle de Acesso - O SGBD deve dispor de recursos de que possibilitem controlar e definir o acesso
+de cada usuário. Assim um usuário poderá realizar qualquer tipo de acesso, outros poderão ler alguns
+dados e atualizar outros ainda poderão somente acessar um conjunto restrito de dados para escrita e leitura.
+
+CARACTERÍSTICA 4: Interfaceamento - Um Banco de Dados deverá disponibilizar formas de acesso gráfico, em linguagem natural, em
+SQL ou ainda via menus de acesso.
+
+CARACTERÍSTICA 5: Esquematização - Um Banco de Dados deverá fornecer mecanismos que possibilitem a compreensão dos relaciomentos
+existentes entre as tabelas e de sua enventual manutenção.
+
+CARACTERÍSTICA 6: Controle de Integridade - Um Banco de Dados deverá impedir que aplicações ou acessos pelas interfaces possam
+comprometer a integridade dos dados.
+
+CARACTERÍSTICA 7: BackUps - O SGBD deverá apresentar facilidade para recuperar falhas de hardware e software.
+
+* Um Banco de Dados representa uma coleção de dados que possui akgum sigfinicado e objetiva atender a um conjunto de usuários. 
+Por exemplo, um catálogo telefônico pode ser considerado um DB. Sendo assim, um BD não necessariamente está informatizado.
